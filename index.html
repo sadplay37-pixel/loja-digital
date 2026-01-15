@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja Digital Premium</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #fff;
+    }
+
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #1e293b, #020617);
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.3em;
+    }
+
+    header p {
+      color: #cbd5f5;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #020617;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #94a3b8;
+      margin-bottom: 15px;
+    }
+
+    .preco {
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      background: #2563eb;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #94a3b8;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📘 Loja Digital Premium</h1>
+  <p>E-books e produtos digitais para transformar sua vida</p>
+</header>
+
+<section class="produtos">
+
+  <div class="card">
+    <h2>E-book Mentalidade Milionária</h2>
+    <p>Aprenda a pensar como pessoas de sucesso e mudar sua realidade.</p>
+    <span class="preco">R$ 29,90</span>
+    <button onclick="alert('Pagamento em breve!')">Comprar</button>
+  </div>
+
+  <div class="card">
+    <h2>E-book Renda Online</h2>
+    <p>Guia prático para ganhar dinheiro na internet do zero.</p>
+    <span class="preco">R$ 19,90</span>
+    <button onclick="alert('Pagamento em breve!')">Comprar</button>
+  </div>
+
+  <div class="card">
+    <h2>Pack Digital Produtividade</h2>
+    <p>Métodos, planners e ferramentas para alta performance.</p>
+    <span class="preco">R$ 39,90</span>
+    <button onclick="alert('Pagamento em breve!')">Comprar</button>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 - Loja Digital Premium | Todos os direitos reservados
+</footer>
+
+</body>
+  </html>
